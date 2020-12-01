@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(advent_of_code)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(day1-twentytwenty day1/twentytwenty.cpp)
