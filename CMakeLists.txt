@@ -4,3 +4,4 @@ project(advent_of_code)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(day1-twentytwenty day1/twentytwenty.cpp)
+add_executable(day2-password-philosophy day2/password-philosophy.cpp)
