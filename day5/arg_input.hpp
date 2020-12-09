@@ -7,7 +7,7 @@
 #include <iostream>
 
 std::variant<int, std::ifstream> get_input(int argc, char* argv[]) {
-  if (argc != 2) {
+  if (argc < 2) {
     std::cout << "usage " << argv[0] << " path-to-input" << std::endl;
     return 0;
   }
