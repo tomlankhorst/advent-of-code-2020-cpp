@@ -38,6 +38,22 @@ jobs:
       # Execute the build.  You can specify a specific target with "--target <NAME>"
       run: cmake --build . --config $BUILD_TYPE
 
+    - name: Run
+      working-directory: ${{runner.workspace}}/build
+      shell: bash
+      # Execute the build.  You can specify a specific target with "--target <NAME>"
+      run: |
+        ./day1-twentytwenty $GITHUB_WORKSPACE/day1/input
+        ./day2-password-philosophy $GITHUB_WORKSPACE/day2/input
+        ./day3-toboggan-trajectory $GITHUB_WORKSPACE/day3/input
+        ./day4-passport-processing $GITHUB_WORKSPACE/day4/input
+        ./day5-binary-boarding $GITHUB_WORKSPACE/day5/input
+        ./day6-custom-customs $GITHUB_WORKSPACE/day6/input
+        ./day7-handy-haversacks $GITHUB_WORKSPACE/day7/input
+        ./day8-handheld-halting $GITHUB_WORKSPACE/day8/input
+        ./day9-encoding-error $GITHUB_WORKSPACE/day9/input 25
+        ./day10-adapter-array $GITHUB_WORKSPACE/day10/input
+
     - name: Test
       working-directory: ${{runner.workspace}}/build
       shell: bash
