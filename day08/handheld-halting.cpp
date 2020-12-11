@@ -1,7 +1,7 @@
 #include "handheld.hpp"
 
-#include "day5/arg_input.hpp"
-#include "day5/tokenize.hpp"
+#include "day05/arg_input.hpp"
+#include "day05/tokenize.hpp"
 
 auto main(int argc, char* argv[]) -> int {
   using namespace handheld;

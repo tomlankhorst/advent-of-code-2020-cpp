@@ -1,4 +1,4 @@
-#include "day5/arg_input.hpp"
+#include "day05/arg_input.hpp"
 
 #include <algorithm>
 #include <numeric>

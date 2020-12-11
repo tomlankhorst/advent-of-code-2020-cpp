@@ -4,8 +4,8 @@
 #include <set>
 #include <numeric>
 
-#include "day5/arg_input.hpp"
-#include "day5/tokenize.hpp"
+#include "day05/arg_input.hpp"
+#include "day05/tokenize.hpp"
 
 namespace ranges = std::ranges;
 

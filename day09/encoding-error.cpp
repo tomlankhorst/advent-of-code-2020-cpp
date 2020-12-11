@@ -5,7 +5,7 @@
 #include <numeric>
 #include <span>
 
-#include "day5/arg_input.hpp"
+#include "day05/arg_input.hpp"
 
 namespace ranges = std::ranges;
 
