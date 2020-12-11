@@ -43,16 +43,17 @@ jobs:
       shell: bash
       # Execute the build.  You can specify a specific target with "--target <NAME>"
       run: |
-        ./day01-twentytwenty $GITHUB_WORKSPACE/day1/input
-        ./day02-password-philosophy $GITHUB_WORKSPACE/day2/input
-        ./day03-toboggan-trajectory $GITHUB_WORKSPACE/day3/input
-        ./day04-passport-processing $GITHUB_WORKSPACE/day4/input
+        ./day01-twentytwenty $GITHUB_WORKSPACE/day01/input
+        ./day02-password-philosophy $GITHUB_WORKSPACE/day02/input
+        ./day03-toboggan-trajectory $GITHUB_WORKSPACE/day03/input
+        ./day04-passport-processing $GITHUB_WORKSPACE/day04/input
         ./day05-binary-boarding $GITHUB_WORKSPACE/day05/input
-        ./day06-custom-customs $GITHUB_WORKSPACE/day6/input
-        ./day07-handy-haversacks $GITHUB_WORKSPACE/day7/input
-        ./day08-handheld-halting $GITHUB_WORKSPACE/day8/input
-        ./day09-encoding-error $GITHUB_WORKSPACE/day9/input 25
+        ./day06-custom-customs $GITHUB_WORKSPACE/day06/input
+        ./day07-handy-haversacks $GITHUB_WORKSPACE/day07/input
+        ./day08-handheld-halting $GITHUB_WORKSPACE/day08/input
+        ./day09-encoding-error $GITHUB_WORKSPACE/day09/input 25
         ./day10-adapter-array $GITHUB_WORKSPACE/day10/input
+        ./day11-seating-system $GITHUB_WORKSPACE/day11/input
 
     - name: Test
       working-directory: ${{runner.workspace}}/build
