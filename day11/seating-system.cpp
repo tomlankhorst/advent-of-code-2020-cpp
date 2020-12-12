@@ -153,8 +153,12 @@ auto main(int argc, char* argv[]) -> int{
   };
 
   auto [stable1, evolutions1] = stabilize(seats, evolve_seat_adjacent);
-  std::cout << "Part 1: " << seat_count_if(stable1, '#') << " occupied after " << evolutions1 << " evolutions\n";
+  auto a1 = seat_count_if(stable1, '#');
+  std::cout << "Part 1: " << a1 << " occupied after " << evolutions1 << " evolutions\n";
 
   auto [stable2, evolutions2] = stabilize(seats, evolve_seat_visible);
-  std::cout << "Part 2: " << seat_count_if(stable2, '#') << " occupied after " << evolutions2 << " evolutions\n";
+  auto a2 = seat_count_if(stable2, '#');
+  std::cout << "Part 2: " << a2 << " occupied after " << evolutions2 << " evolutions\n";
+
+  std::cout << a1 << "\n" << a2 << "\n";
 }
