@@ -60,3 +60,4 @@ jobs:
       run: |
         ./day11-seating-system $GITHUB_WORKSPACE/day11/input | tail -n2 | diff - $GITHUB_WORKSPACE/day11/expect || exit 1
         ./day12-rain-risk $GITHUB_WORKSPACE/day12/input | tail -n2 | diff - $GITHUB_WORKSPACE/day12/expect || exit 1
+        ./day13-shuttle-search $GITHUB_WORKSPACE/day13/input | tail -n2 | diff - $GITHUB_WORKSPACE/day13/expect || exit 1
