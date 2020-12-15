@@ -62,3 +62,4 @@ jobs:
         ./day12-rain-risk $GITHUB_WORKSPACE/day12/input | tail -n2 | diff - $GITHUB_WORKSPACE/day12/expect || exit 1
         ./day13-shuttle-search $GITHUB_WORKSPACE/day13/input | tail -n2 | diff - $GITHUB_WORKSPACE/day13/expect || exit 1
         ./day14-docking-data $GITHUB_WORKSPACE/day14/input | tail -n2 | diff - $GITHUB_WORKSPACE/day14/expect || exit 1
+        ./day15-rambunctious-recitation $GITHUB_WORKSPACE/day15/input | tail -n2 | diff - $GITHUB_WORKSPACE/day15/expect || exit 1
