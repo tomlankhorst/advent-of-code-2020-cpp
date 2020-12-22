@@ -23,3 +23,5 @@ add_executable(day15-rambunctious-recitation day15/rambunctious-recitation.cpp)
 add_executable(day16-ticket-translation day16/ticket-translation.cpp)
 add_executable(day17-conway-cubes day17/conway-cubes.cpp)
 add_executable(day18-operation-order day18/operation-order.cpp)
+
+add_executable(day20-jurassic-jigsaw day20/jurassic-jigsaw.cpp)
