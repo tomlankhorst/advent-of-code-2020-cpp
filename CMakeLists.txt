@@ -26,3 +26,4 @@ add_executable(day18-operation-order day18/operation-order.cpp)
 
 add_executable(day20-jurassic-jigsaw day20/jurassic-jigsaw.cpp)
 add_executable(day21-allergen-assessment day21/allergen-assessment.cpp)
+add_executable(day22-crab-combat day22/crab-combat.cpp)
