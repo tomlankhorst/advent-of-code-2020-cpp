@@ -66,3 +66,4 @@ jobs:
         ./day16-ticket-translation $GITHUB_WORKSPACE/day16/input | tail -n2 | diff - $GITHUB_WORKSPACE/day16/expect || exit 1
         ./day17-conway-cubes $GITHUB_WORKSPACE/day17/input | tail -n2 | diff - $GITHUB_WORKSPACE/day17/expect || exit 1
         ./day20-jurassic-jigsaw $GITHUB_WORKSPACE/day20/input | tail -n2 | diff - $GITHUB_WORKSPACE/day20/expect || exit 1
+        ./day21-allergen-assessment $GITHUB_WORKSPACE/day21/input | tail -n2 | diff - $GITHUB_WORKSPACE/day21/expect || exit 1

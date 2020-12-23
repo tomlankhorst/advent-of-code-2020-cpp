@@ -25,3 +25,4 @@ add_executable(day17-conway-cubes day17/conway-cubes.cpp)
 add_executable(day18-operation-order day18/operation-order.cpp)
 
 add_executable(day20-jurassic-jigsaw day20/jurassic-jigsaw.cpp)
+add_executable(day21-allergen-assessment day21/allergen-assessment.cpp)
