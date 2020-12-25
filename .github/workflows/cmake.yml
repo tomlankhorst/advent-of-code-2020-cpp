@@ -71,3 +71,4 @@ jobs:
         ./day22-crab-combat $GITHUB_WORKSPACE/day22/input | tail -n2 | diff - $GITHUB_WORKSPACE/day22/expect || exit 1
         ./day23-crab-cups 327465189 | tail -n2 | diff - $GITHUB_WORKSPACE/day23/expect || exit 1
         ./day24-lobby-layout $GITHUB_WORKSPACE/day24/input | tail -n2 | diff - $GITHUB_WORKSPACE/day24/expect || exit 1
+        ./day25-combo-breaker 335121 363891 | tail -n1 | diff - $GITHUB_WORKSPACE/day25/expect || exit 1
